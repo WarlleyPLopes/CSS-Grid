@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 20vh 74vh;
+    gap: 15px;
+    grid-template-areas: 
+        "header header header header header"
+        "aside aside main main main"
+    ; 
+}
+
+header, aside, main {
+    background-color: #66FFCC;
+    color: black;
+    border: 1px solid black;
+    text-align: start;
+    border-radius: 5px;
+}
+
+
+header {
+    grid-area: header;
+    display: flex;
+}
+
+aside {
+    grid-area: aside;
+}
+main {
+    grid-area: main;
+}

@@ -1,0 +1,6 @@
+
+
+.grid-row-5 .item-5 {
+	grid-row: footer;
+	grid-column: span 2;
+}
